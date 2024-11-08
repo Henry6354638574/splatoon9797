@@ -5,84 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>顏珩聿的網頁</title>
     <style>
-        /* 設定頁面背景顏色與字型 */
+        /* 整體樣式 */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
 
-        /* 標題設計 */
+        /* 頁面標題 */
         h1 {
             text-align: center;
-            color: #007BFF;
-            padding: 20px 0;
-            margin: 0;
+            font-size: 3em;
+            color: #4a90e2;
+            margin-top: 30px;
         }
 
-        /* 圖片設置 */
+        /* 圖片樣式 */
         img {
             display: block;
             margin: 20px auto;
-            border-radius: 50%;
-            object-fit: contain; /* 保持圖片原始比例，並不會裁剪圖片 */
-            max-width: 100%; /* 保證圖片不會超出容器寬度 */
-            height: auto; /* 根據寬度調整高度 */
+            border-radius: 10px;
         }
 
-        /* 自我介紹段落設計 */
+        /* 標題樣式 */
         h2 {
-            color: #444;
-            text-align: center;
+            font-size: 2em;
+            color: #333;
             margin-top: 40px;
+            margin-bottom: 10px;
+            text-align: center;
         }
 
+        /* 段落樣式 */
         p {
             text-align: center;
-            font-size: 18px;
+            font-size: 1.2em;
             line-height: 1.6;
+            margin: 0 20px;
         }
 
-        /* 興趣列表 */
+        /* 興趣列表樣式 */
         ul {
             list-style-type: none;
             padding: 0;
             text-align: center;
+            font-size: 1.2em;
         }
 
         ul li {
             display: inline-block;
             margin: 10px 20px;
-            font-size: 18px;
-            background-color: #FFD700;
+            background-color: #4a90e2;
+            color: white;
             padding: 10px 20px;
             border-radius: 20px;
         }
 
-        /* 聯絡方式 */
+        /* 聯絡方式區域樣式 */
         .contact {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 40px;
         }
 
-        .contact a {
-            color: #007BFF;
+        .contact p {
+            font-size: 1.2em;
+        }
+
+        /* 連結樣式 */
+        a {
+            color: #4a90e2;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.2em;
+            display: block;
+            margin-top: 20px;
+            text-align: center;
         }
 
-        .contact a:hover {
+        a:hover {
             text-decoration: underline;
         }
 
     </style>
 </head>
 <body>
-
     <h1>顏珩聿的網頁</h1>
-    <img src="character-3.png" width="200" alt="角色圖片">
+    <img src="character-3.png" width="200" alt="顏珩聿的圖片">
     
     <h2>自我介紹</h2>
     <p>哈囉！我是你爸，我喜歡你媽。</p>
@@ -95,11 +104,10 @@
         <li>籃球</li>
     </ul>
     
-    <h2>聯絡方式</h2>
-    <p>Email: 211075@stu.cchs.chc.edu.tw</p>
     <div class="contact">
+        <h2>聯絡方式</h2>
+        <p>Email: <a href="mailto:211075@stu.cchs.chc.edu.tw">211075@stu.cchs.chc.edu.tw</a></p>
         <a href="https://zh.moegirl.org.cn/zh-tw/%E9%87%8E%E5%85%BD%E5%85%88%E8%BE%88" target="_blank">你阿公的裸照</a>
     </div>
-
 </body>
 </html>
