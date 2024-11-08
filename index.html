@@ -27,6 +27,9 @@
             display: block;
             margin: 20px auto;
             border-radius: 50%;
+            object-fit: contain; /* 保持圖片原始比例，並不會裁剪圖片 */
+            max-width: 100%; /* 保證圖片不會超出容器寬度 */
+            height: auto; /* 根據寬度調整高度 */
         }
 
         /* 自我介紹段落設計 */
